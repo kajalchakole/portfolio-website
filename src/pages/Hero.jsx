@@ -2,7 +2,7 @@ import Button from '../components/common/Button/Button'
 import './hero.css'
 
 
-const Hero = function (props) {
+const Hero = function () {
     return (
         <div className="hero">
             <div className="hero-content">
