@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+#root {
+    font-family: var(--font-family);
+    font-optical-sizing: auto;
+    background-color: var(--primary-bg-color);
+}
+
+.heading {
+    font-size: 56px;
+    font-weight: 700;
+    color: var(--primary-color);
+    line-height: 1.1;
+}
+
+.sub-heading {
+    font-size: 44px;
+    font-weight: 600;
+    color: #0b3636d9;
+    line-height: 1.15;
+    padding-bottom: 10px;
+    opacity: 0.8;
+}
+
+.eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    color: var(--primary-color);
+    padding-bottom: 10px;
+}
+
+.hero-col-right,
+.two-col-right {
+    background-color: #1E4F4E;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.hero-col-right::before,
+.two-col-right::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: repeating-radial-gradient(circle at top right,
+            rgba(255, 255, 255, 0.06),
+            rgba(255, 255, 255, 0.06) 1px,
+            transparent 1px,
+            transparent 22px);
+    opacity: 0.25;
+}
+
