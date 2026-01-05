@@ -4,9 +4,9 @@
     align-content: center;
     min-height: 70vh;
     width: 100%;
-    gap: 20px;
+    gap: 60px;
     margin: 30px 0;
-    justify-content: center;
+    justify-content: end;
 }
 
 .about-grid {
@@ -24,6 +24,7 @@
     font-size: 14px;
     letter-spacing: 1px;
     color: var(--gray-light-text);
+    max-width: 560px;
 }
 
 @media (max-width: 768px) {
@@ -35,12 +36,18 @@
 .tech-strip {
     align-self: center;
     font-size: 24px;
-    margin-top: 20px;
+    margin-top: 32px;
     padding: 10px;
     color: var(--primary-color);
     opacity: 0.8;
 }
 
+
+.about-sub-header {
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .about-sub-header strong {
     font-weight: 700;
     color: var(--primary-color);
@@ -49,7 +56,7 @@
 .about-col-right {
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    padding: 25px 40px 0 40px;
 }
 
 .highlights {
@@ -58,7 +65,7 @@
 
 .highlight-keys {
     list-style: none;
-    padding-left: 0;
+    padding: 30px 0 30px 0;
     line-height: 2.5;
     font-size: 16px;
 }
