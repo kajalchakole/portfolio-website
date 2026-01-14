@@ -2,15 +2,25 @@
     display: flex;
     flex-direction: column;
     align-content: center;
-    min-height: 70vh;
+    min-height: 85vh;
     width: 100%;
     gap: 60px;
-    margin: 30px 0;
     justify-content: end;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 24px 120px;
+    margin-top: -40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.04);
 }
 
 .about-grid {
-    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 64px;
+}
+
+.about-col-left,
+.about-col-right {
+    align-content: center;
 }
 
 .about-col-left {
@@ -48,6 +58,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 .about-sub-header strong {
     font-weight: 700;
     color: var(--primary-color);
@@ -56,7 +67,7 @@
 .about-col-right {
     display: flex;
     flex-direction: column;
-    padding: 25px 40px 0 40px;
+    padding: 48px;
 }
 
 .highlights {

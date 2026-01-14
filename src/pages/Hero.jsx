@@ -33,6 +33,12 @@ const Hero = function () {
                     </div>
                 </div>
                 <div className="hero-column hero-col-right">
+                    <div className="hero-keywords">
+                        <span>SYSTEMS</span>
+                        <span>SCALE</span>
+                        <span>RELIABILITY</span>
+                        <span>LEADERSHIP</span>
+                    </div>
                 </div>
             </div>
         </div >
