@@ -3,22 +3,21 @@ import './button.css'
 
 const Button = function (props) {
 
-    let { name, href, to, type, download } = props;
-    const content = (
-        <div className={`button ${type}`}>
-            { name }
-        </div>
-    );
+    let { name, href, to, type, download, onClick } = props;
 
     if (to) {
-        return <Link to={to}>{content}</Link>;
+        return <Link to={to} className={`button ${type}`} onClick={onClick}>{name}</Link>;
     }
 
     if (href) {
-        return <a href={ href } download={ download }>{content}</a>;
+        return <a href={href} download={download} className={`button ${type}`}>{name}</a>;
     }
 
-    return content;
+    return (
+        <button type="button" className={`button ${type}`} onClick={onClick}>
+            {name}
+        </button>
+    );
 }
 
 export default Button;

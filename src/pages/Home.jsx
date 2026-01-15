@@ -5,9 +5,15 @@ import Projects from "../pages/Projects";
 function Home() {
   return (
     <>
-      <Hero />
-      <About />
-      <Projects />
+      <section id="home">
+        <Hero />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="projects">
+        <Projects />
+      </section>
     </>
   );
 }

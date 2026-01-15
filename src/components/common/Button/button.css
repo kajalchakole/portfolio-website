@@ -6,6 +6,8 @@ a {
 .button {
     padding: 8px 14px;
     border-radius: 10px;
+    background: none;
+    cursor: pointer;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;

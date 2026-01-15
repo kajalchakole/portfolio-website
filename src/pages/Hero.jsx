@@ -4,6 +4,13 @@ import Resume from '../assets/Kajal_Chakole_Engineering_Manager_Resume.pdf'
 
 
 const Hero = function () {
+    const scrollToSection = (id) => {
+        const el = document.getElementById(id);
+        if (el) {
+            el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    };
+
     return (
         <div className="hero">
             <div className="hero-content">
@@ -30,7 +37,7 @@ const Hero = function () {
                     </div>
                     <div className="hero-button-bar">
                         <Button name="Download Resume" type="primary" href={Resume} download />
-                        <Button name="View Projects" type="secondary" to="/projects" />
+                        <Button name="View Projects" type="secondary" onClick={() => scrollToSection('projects')} />
                     </div>
                 </div>
                 <div className="hero-column hero-col-right">
