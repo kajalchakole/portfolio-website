@@ -2,7 +2,14 @@ body {
     margin: 0;
 }
 
+html,
+body {
+    height: auto;
+    overflow-y: auto;
+}
+
 #root {
+    min-height: 100vh;
     font-family: var(--font-family);
     font-optical-sizing: auto;
     background-color: var(--primary-bg-color);
@@ -56,4 +63,3 @@ body {
             transparent 22px);
     opacity: 0.25;
 }
-
