@@ -45,11 +45,14 @@
 
 .tech-strip {
     align-self: center;
-    font-size: 24px;
+    font-size: 16px;
     margin-top: 32px;
     padding: 10px;
     color: var(--primary-color);
     opacity: 0.8;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 
 

@@ -7,7 +7,11 @@
     height: 64px;
     padding-left: 24px;
     padding-right: 32px;
-    position: sticky;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
 }
 
 .nav-content {
