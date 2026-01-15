@@ -1,6 +1,6 @@
 import Button from '../components/common/Button/Button'
 import './hero.css'
-import Resume from '../assets/resume.pdf'
+import Resume from '../assets/Kajal_Chakole_Engineering_Manager_Resume.pdf'
 
 
 const Hero = function () {

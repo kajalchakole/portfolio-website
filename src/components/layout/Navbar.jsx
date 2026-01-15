@@ -1,13 +1,10 @@
 import Button from '../common/Button/Button';
 import './navbar.css'
+import Resume from '../../assets/Kajal_Chakole_Engineering_Manager_Resume.pdf'
 import { Link } from "react-router-dom";
 
 
-const Navbar = function (props) {
-
-    function handleResumeDownload() {
-
-    }
+const Navbar = function () {
 
     return (
         <div className="nav-bar">
@@ -37,7 +34,7 @@ const Navbar = function (props) {
                 </div> */}
             </div>
             <div className="nav-content">
-                <Button name="Download Resume" type="primary" />
+                <Button name="Download Resume" type="primary" href={Resume} download />
             </div>
         </div>
     );
