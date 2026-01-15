@@ -1,5 +1,6 @@
 import Button from '../components/common/Button/Button'
 import './hero.css'
+import Resume from '../assets/resume.pdf'
 
 
 const Hero = function () {
@@ -28,8 +29,8 @@ const Hero = function () {
                         Leading high-impact engineering teams.
                     </div>
                     <div className="hero-button-bar">
-                        <Button name="Download Resume" type="primary" />
-                        <Button name="View Projects" type="secondary" />
+                        <Button name="Download Resume" type="primary" href={Resume} download />
+                        <Button name="View Projects" type="secondary" to="/projects" />
                     </div>
                 </div>
                 <div className="hero-column hero-col-right">
