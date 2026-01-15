@@ -87,6 +87,7 @@
     font-weight: 600;
     color: #5ef19b;
     cursor: pointer;
+    display: none;
 }
 .project-link:hover {
   opacity: 0.85;
