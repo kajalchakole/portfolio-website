@@ -12,7 +12,7 @@ const Projects = () => {
                 <div className="project-details">
 
                     <p className="project-statement">
-                        Built and scaled an enterprise customer engineering platform
+                        Launched multiple enterprise clients with custom enhancements at scale,
                         supporting high-volume BFSI workflows.
                     </p>
                     <div className="project-meta">
@@ -74,7 +74,7 @@ const Projects = () => {
                 <div className="project-details">
 
                     <p className="project-statement">
-                        Modernized a legacy insurance product by migrating from Flex-based architecture to HTML5, enabling long-term maintainability and broader enterprise adoption.
+                        Reimagined a legacy insurance suite by rebuilding its Flex core into a modern HTML5 platform, unlocking enterprise rollouts and easier long-term evolution.
 
                     </p>
                     <div className="project-meta">
