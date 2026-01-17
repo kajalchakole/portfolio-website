@@ -8,12 +8,24 @@ body {
     overflow-y: auto;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
 #root {
     min-height: 100vh;
     font-family: var(--font-family);
     font-optical-sizing: auto;
     background-color: var(--primary-bg-color);
     padding-top: 64px;
+    overflow-x: hidden;
 }
 
 .heading {
@@ -63,4 +75,46 @@ body {
             transparent 1px,
             transparent 22px);
     opacity: 0.25;
+}
+
+@media (max-width: 1024px) {
+    #root {
+        padding-top: 72px;
+    }
+
+    .heading {
+        font-size: 48px;
+    }
+
+    .sub-heading {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 720px) {
+    #root {
+        padding-top: 112px;
+    }
+
+    .heading {
+        font-size: 40px;
+    }
+
+    .sub-heading {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 520px) {
+    #root {
+        padding-top: 128px;
+    }
+
+    .heading {
+        font-size: 34px;
+    }
+
+    .sub-heading {
+        font-size: 28px;
+    }
 }

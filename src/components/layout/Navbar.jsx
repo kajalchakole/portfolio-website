@@ -31,19 +31,19 @@ const Navbar = function () {
                         Projects
                     </button>
                 </div>
-{/* 
+                {/* 
                 <div className="nav-link">
                     <Link to="/blog">
                         Blog
                     </Link>
-                </div>
-                <div className="nav-link">
-                    <Link to="/contact">
-                        Contact
-                    </Link>
+                </div>*/}
+                {/* <div className="nav-link">
+                    <button type="button" onClick={() => scrollToSection('contact')}>
+                        Contact Me  
+                    </button>
                 </div> */}
             </div>
-            <div className="nav-content">
+            <div className="nav-content nav-cta">
                 <Button name="Download Resume" type="primary" href={Resume} download />
             </div>
         </div>

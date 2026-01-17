@@ -6,6 +6,7 @@
 .projects-section {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 24px;
 }
 
 .projects-title {
@@ -124,5 +125,44 @@
 
   strong {
     color: var(--primary-bg-color);
+  }
+}
+
+@media (max-width: 768px) {
+  .project-page {
+    margin: 64px 0;
+  }
+
+  .projects-title {
+    font-size: 28px;
+  }
+
+  .project-minimal {
+    padding: 28px;
+    gap: 28px;
+  }
+
+  .project-statement {
+    font-size: 24px;
+  }
+
+  .project-meta {
+    flex-wrap: wrap;
+    gap: 18px 28px;
+  }
+}
+
+@media (max-width: 520px) {
+  .projects-section {
+    padding: 0 16px;
+  }
+
+  .project-minimal {
+    padding: 22px;
+    border-radius: 22px;
+  }
+
+  .project-statement {
+    font-size: 20px;
   }
 }
