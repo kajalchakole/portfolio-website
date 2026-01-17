@@ -82,10 +82,10 @@ const Contact = () => {
               </div>
             </div>
             <div className="contact-cta">
-              <div className="contact-cta-title">Prefer a quick intro?</div>
+              <div className="contact-cta-title">Want a quick start?</div>
               <p className="contact-cta-text">
-                Send an email with a few sentences about your goals and I&apos;ll share
-                the next steps.
+                Email a short note about what you need, and I&apos;ll reply with the next
+                steps.
               </p>
             </div>
           </div>
