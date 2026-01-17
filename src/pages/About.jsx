@@ -38,7 +38,7 @@ const About = function () {
                         <li><i className="fa-solid fa-check"></i>
                             Built systems serving 40k+ users</li>
                         <li><i className="fa-solid fa-check"></i>
-                            Domains: backend platforms, integrations, workflows</li>
+                            Domains: Backend Platforms, Integrations, Frontend</li>
                     </ul>
                 </div>
             </div>
