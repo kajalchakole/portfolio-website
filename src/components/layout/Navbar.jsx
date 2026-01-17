@@ -37,11 +37,11 @@ const Navbar = function () {
                         Blog
                     </Link>
                 </div>*/}
-                {/* <div className="nav-link">
+                <div className="nav-link">
                     <button type="button" onClick={() => scrollToSection('contact')}>
                         Contact Me  
                     </button>
-                </div> */}
+                </div>
             </div>
             <div className="nav-content nav-cta">
                 <Button name="Download Resume" type="primary" href={Resume} download />

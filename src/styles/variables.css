@@ -11,4 +11,26 @@
              'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
              'Helvetica Neue', sans-serif;
     --gray-light-text: #303030;
+    --surface-card: #ffffff;
+    --surface-warm: #fbf7f2;
+    --surface-muted: #fdfbf8;
+    --border-subtle: rgba(11, 54, 54, 0.08);
+    --border-soft: rgba(11, 54, 54, 0.12);
+    --shadow-soft: 0 18px 38px rgba(11, 54, 54, 0.08);
+    --shadow-hover: 0 12px 24px rgba(11, 54, 54, 0.12);
+    --pattern-soft: repeating-linear-gradient(
+        135deg,
+        rgba(21, 66, 67, 0.05),
+        rgba(21, 66, 67, 0.05) 1px,
+        transparent 1px,
+        transparent 20px
+    );
+    --pill-bg: rgba(21, 66, 67, 0.14);
+    --card-bg: rgba(255, 255, 255, 0.9);
+    --icon-bg: rgba(255, 255, 255, 0.9);
+    --text-muted: rgba(11, 54, 54, 0.6);
+    --text-muted-strong: rgba(11, 54, 54, 0.72);
+    --cta-bg: rgba(21, 66, 67, 0.04);
+    --contact-section-bg: radial-gradient(circle at top, rgba(21, 66, 67, 0.08), transparent 55%),
+        linear-gradient(120deg, rgba(21, 66, 67, 0.04), rgba(232, 183, 130, 0.12));
 }
