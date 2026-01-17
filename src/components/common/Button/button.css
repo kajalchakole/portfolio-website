@@ -4,6 +4,10 @@ a {
 }
 
 .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     padding: 8px 14px;
     border-radius: 10px;
     background: none;

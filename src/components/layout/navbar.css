@@ -93,6 +93,12 @@
     }
 }
 
+@media (max-width: 600px) {
+    .nav-cta {
+        display: none;
+    }
+}
+
 @media (max-width: 520px) {
     .logo {
         font-size: 16px;
