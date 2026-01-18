@@ -38,7 +38,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="project-media">
-                    <img src={VymoMedia} alt="" srcset="" />
+                    <img src={VymoMedia} />
                 </div>
             </div>
 
@@ -66,7 +66,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="project-media">
-                    <img src={AARPMedia} alt="" srcset="" />
+                    <img src={AARPMedia}/>
                 </div>
             </div>
 
@@ -96,7 +96,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="project-media">
-                    <img src={MajescoMedia} alt="" srcset="" />
+                    <img src={MajescoMedia} />
                 </div>
             </div>
 

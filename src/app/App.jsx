@@ -6,9 +6,11 @@ import Projects from '../pages/Projects';
 import ScrollToTop from '../pages/ScrollToTop';
 import { Routes, Route } from 'react-router-dom';
 import Home from '../pages/Home';
+import { usePageView } from './usePageView';
 
 
 function App() {
+  usePageView(import.meta.env.VITE_ANALYTICS_URL);
 
   return (
     <>
