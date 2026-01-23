@@ -1,0 +1,32 @@
+{
+    "case-studies-list": [
+        {
+            "title": "Designing a Safe Bulk Ingestion System",
+            "tags": ["Microservices", "Architecture", "Scalability"],
+            "status": "live",
+            "role": "Engineering Manager",
+            "focus": "API design, scalability, reliability",
+            "description": "Reframed a bursty, record-level API into a job-based ingestion pipeline with back-pressure, idempotency, and clear progress reporting.",
+            "cta": "Read Case Study"
+        },
+        {
+            "title": "Real-time Assignment Visibility",
+            "tags": ["UX/UI", "E-Commerce", "Design"],
+            "status": "coming soon",
+            "role": "Platform Lead",
+            "focus": "Operational UX, monitoring, reliability",
+            "description": "Built client-facing monitoring that surfaces assignment outcomes and validation errors in near real time.",
+            "cta": "Coming Soon"
+        },
+        {
+            "title": "Controlled Fan-out Integrations",
+            "slug": "data-driven-decision-making-analytics",
+            "tags": ["Data Analytics", "Business Intelligence", "Operations"],
+            "status": "coming soon",
+            "role": "Engineering Manager",
+            "focus": "Data pipelines, analytics, decision-making",
+            "description": "Introduced gateway-level safeguards to prevent retry storms and stabilize downstream systems.",
+            "cta": "Coming Soon"
+        }
+    ]
+}
