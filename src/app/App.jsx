@@ -7,6 +7,7 @@ import ScrollToTop from '../pages/ScrollToTop';
 import { Routes, Route } from 'react-router-dom';
 import Home from '../pages/Home';
 import { usePageView } from './usePageView';
+import CaseStudies from '../pages/CaseStudies';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/projects' element={<Projects />} />
+        <Route path="/case-studies" element={<CaseStudies />} />
       </Routes>
     </>
   )

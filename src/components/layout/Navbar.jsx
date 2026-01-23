@@ -1,6 +1,7 @@
 import Button from '../common/Button/Button';
 import './navbar.css'
 import Resume from '../../assets/Kajal_Chakole_Engineering_Manager_Resume.pdf'
+import { Link } from 'react-router-dom'
 
 
 const Navbar = function () {
@@ -30,6 +31,11 @@ const Navbar = function () {
                     <button type="button" onClick={() => scrollToSection('projects')}>
                         Projects
                     </button>
+                </div>
+                <div className="nav-link">
+                    <Link to="case-studies">
+                        Case Studies
+                    </Link>
                 </div>
                 {/* 
                 <div className="nav-link">
