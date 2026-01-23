@@ -141,7 +141,8 @@
     background-color: var(--pill-bg);
     border: 0;
     text-decoration: none;
-    cursor: initial;
+    cursor: default;
+    pointer-events: none;
 }
 
 
