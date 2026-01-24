@@ -1,7 +1,6 @@
 import './caseStudies.css';
 import DataSet from '../data/pages/case-studies.json';
 import Button from '../components/common/Button/Button';
-import Resume from '../assets/Kajal_Chakole_Engineering_Manager_Resume.pdf'
 
 const CaseStudies = function () {
     return (
@@ -47,7 +46,7 @@ const CaseStudies = function () {
                             </div>
                         </div>
                         <div className="case-study-button">
-                            <Button type={caseStudy.cta === "Read Case Study" ? "primary" : "secondary"} href={Resume} rel="noopener noreferrer" name={caseStudy.cta} />
+                            <Button type={caseStudy.cta === "Read Case Study" ? "primary" : "secondary"} to="../ingestion-case-study" name={caseStudy.cta} />
                         </div>
 
                     </div>

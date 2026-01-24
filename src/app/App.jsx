@@ -8,6 +8,7 @@ import { Routes, Route } from 'react-router-dom';
 import Home from '../pages/Home';
 import { usePageView } from './usePageView';
 import CaseStudies from '../pages/CaseStudies';
+import IngestionCaseStudy from '../pages/case-studies/IngestionCaseStudy';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/projects' element={<Projects />} />
         <Route path="/case-studies" element={<CaseStudies />} />
+        <Route path="/case-studies/ingestion-case-study" element={<IngestionCaseStudy />} />
       </Routes>
     </>
   )
