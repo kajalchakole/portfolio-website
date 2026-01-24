@@ -122,7 +122,8 @@
 
 
 .case-study-role,
-.case-study-focus {
+.case-study-focus,
+.case-study-domain {
     margin-top: 10px;
     display: flex;
     flex-direction: column;
@@ -135,7 +136,8 @@
 }
 
 .case-study-role strong,
-.case-study-focus strong {
+.case-study-focus strong,
+.case-study-domain strong {
     color: var(--text-muted);
     font-weight: 400;
     font-size: 12px;
