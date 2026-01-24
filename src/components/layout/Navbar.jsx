@@ -25,7 +25,16 @@ const Navbar = function () {
             <div className="nav-content logo">Kajal Chakole</div>
             <div className="nav-content nav-links">
                 <div className="nav-link">
-                    <button type="button" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+                    <button
+                        type="button"
+                        onClick={() => {
+                            if (location.pathname !== '/') {
+                                navigate('/');
+                                return;
+                            }
+                            window.scrollTo({ top: 0, behavior: 'smooth' });
+                        }}
+                    >
                         Home
                     </button>
                 </div>
