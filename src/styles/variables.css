@@ -36,4 +36,5 @@
     --cta-bg: rgba(21, 66, 67, 0.04);
     --contact-section-bg: radial-gradient(circle at top, rgba(21, 66, 67, 0.08), transparent 55%),
         linear-gradient(120deg, rgba(21, 66, 67, 0.04), rgba(232, 183, 130, 0.12));
+    --case-study-bg: radial-gradient(circle at right, var(--bg-gradient-start) 30%, var(--bg-gradient-end) 70%)
 }

@@ -25,7 +25,8 @@ img {
     font-optical-sizing: auto;
     background-color: var(--primary-bg-color);
     padding-top: 64px;
-    overflow-x: hidden;
+    overflow-x: hidden;    
+    background: var(--case-study-bg);
 }
 
 .heading {
@@ -76,6 +77,8 @@ img {
             transparent 22px);
     opacity: 0.25;
 }
+
+.
 
 @media (max-width: 1024px) {
     #root {

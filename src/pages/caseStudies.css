@@ -5,7 +5,6 @@
     padding: 96px 24px 120px;
     min-height: 85vh;
     position: relative;
-    background: radial-gradient(circle at right, var(--bg-gradient-start) 30%, var(--bg-gradient-end) 70%);
 }
 
 .case-studies-hero, .case-studies-list {
