@@ -46,7 +46,7 @@ const CaseStudies = function () {
                             </div>
                         </div>
                         <div className="case-study-button">
-                            <Button type={caseStudy.cta === "Read Case Study" ? "primary" : "secondary"} to="../ingestion-case-study" name={caseStudy.cta} />
+                            <Button type={caseStudy.cta === "Read Case Study" ? "primary" : "secondary"} to="/ingestion-case-study" name={caseStudy.cta} />
                         </div>
 
                     </div>
