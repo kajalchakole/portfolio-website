@@ -6,14 +6,16 @@ import Resume from '../assets/Kajal_Chakole_Engineering_Manager_Resume.pdf'
 const CaseStudies = function () {
     return (
         <div className="case-studies-page">
-            <div className="eyebrow">
-                Case Studies
-            </div>
-            <div className="page-title">
-                Systems design, scale, and resilience
-            </div>
-            <div className="page-subtitle">
-                A curated set of deep dives on platform decisions, reliability wins, and the human impact behind the tech.
+            <div className="case-studies-hero">
+                <div className="eyebrow">
+                    Case Studies
+                </div>
+                <div className="page-title">
+                    Systems design, scale, and resilience
+                </div>
+                <div className="page-subtitle">
+                    A curated set of deep dives on platform decisions, reliability wins, and the human impact behind the tech.
+                </div>
             </div>
 
             <div className="case-studies-list">
@@ -45,7 +47,7 @@ const CaseStudies = function () {
                             </div>
                         </div>
                         <div className="case-study-button">
-                            <Button type={caseStudy.cta === "Read Case Study"?"primary":"secondary"} href={Resume} rel="noopener noreferrer" name={caseStudy.cta} />
+                            <Button type={caseStudy.cta === "Read Case Study" ? "primary" : "secondary"} href={Resume} rel="noopener noreferrer" name={caseStudy.cta} />
                         </div>
 
                     </div>
